@@ -1689,6 +1689,16 @@ pre .javascript .function {
 .post-body p a {
   color: #345;
 }
+body {
+  background: url("../images/1.png");
+/* background-size: 100% 100%;按比例缩放*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+.post-block {
+  background-color: rgba(255,255,255,0.6);
+}
 .sidebar {
   position: fixed;
   right: 0;
@@ -1787,7 +1797,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff85;
+  background: #ffff8f;
 }
 .feed-link,
 .chat {
@@ -3026,18 +3036,4 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
-}
-/*----------------------*/
-body{
-  background:url(../images/1.png);
- /* background-size: 100% 100%;按比例缩放*/
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-}
-.post-block{
-  background-color: rgba(255,255,255,0.6);
-}
-#comments{
-  background-color: rgba(255,255,255,0.6);
 }
