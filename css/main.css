@@ -5,7 +5,6 @@ html {
 }
 body {
   margin: 0;
-  background-color: blue;
 }
 main {
   display: block;
@@ -3027,4 +3026,8 @@ ul.breadcrumb li+li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+/*----------------------*/
+.post-block{
+  background-color: rgba(255,255,255,0.6);
 }
